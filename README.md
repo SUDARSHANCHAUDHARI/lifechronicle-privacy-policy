@@ -1,127 +1,149 @@
-# Privacy Policy — LifeChronicle
+# LifeChronicle — Privacy Policy
 
-**Last Updated: March 21, 2026**
+**Effective Date:** 2026-03-21
+**Last Updated:** 2026-03-21
+**Version:** 1.0.0
 
-SudarshanTechLabs ("we", "our", or "us") operates the LifeChronicle mobile application (the "App"). This Privacy Policy explains how we collect, use, and protect your information when you use our App.
-
----
-
-## 1. Data Collection
-
-We collect the following types of information:
-
-### Information You Provide
-- **Diary entries**: Text, mood, and tags you write in the App
-- **Photos**: Images you capture or select from your gallery for diary entries
-- **Location data**: Optional location attached to diary entries (only when you grant permission)
-
-### Automatically Collected Information
-- **Device information**: Device model, operating system version, and app version (for crash reporting only)
-- **Usage data**: Anonymized app usage patterns to improve functionality
-
-### Information We Do NOT Collect
-- We do not collect your name, email address, or any personally identifiable information unless you explicitly provide it
-- We do not track you across other apps or websites
-- We do not sell your data to third parties
+Published by **Sudarshan Tech Labs** | https://sudarshantechlabs.com | sudarshantechlabs@gmail.com
 
 ---
 
-## 2. Data Use
-
-We use the collected information to:
-
-- **Provide core functionality**: Store and display your diary entries, photos, and memories locally on your device
-- **AI Summaries**: When you request AI-generated summaries, diary entry text is sent to Google Gemini API for processing. This data is not stored by us on external servers
-- **Improve the App**: Analyze anonymized usage patterns to fix bugs and enhance features
-- **Export features**: Generate PDFs or backups of your entries on your device
-
-Your diary data is stored **locally on your device** using an encrypted database. We do not upload your personal diary content to our servers.
+LifeChronicle is a life journaling app for Android. It allows you to write journal entries, attach photos, optionally tag entries with your location, and export your chronicle as a PDF. All data is stored on your device. Sudarshan Tech Labs does not operate a backend server.
 
 ---
 
-## 3. Third-Party Services
+## Data Collection
 
-The App integrates with the following third-party services:
+### Data Stored Locally on Your Device
 
-### Google Gemini API
-- **Purpose**: Generate AI summaries of your diary entries
-- **Data shared**: Diary entry text (when you explicitly request a summary)
-- **Privacy policy**: [Google Privacy Policy](https://policies.google.com/privacy)
+| Data | Purpose | Storage |
+|---|---|---|
+| Journal entries (text, title, date, mood) | Core journaling functionality | Room database on your device |
+| Attached photos (from camera or gallery) | Visual journal entries | App private storage on your device |
+| Location tags (latitude, longitude — if enabled) | Tag where an entry was written | Room database on your device |
+| App preferences and settings | Personalisation | DataStore on your device |
+| PDF exports | Data export | App private storage |
 
-### Google Play Services
-- **Purpose**: App distribution and update delivery
-- **Privacy policy**: [Google Privacy Policy](https://policies.google.com/privacy)
+### Location Data
 
-We do not share your personal data with any other third parties.
-
----
-
-## 4. Data Storage & Security
-
-- All diary entries and photos are stored **locally on your device**
-- Local data is protected by Android's built-in security and app sandboxing
-- We do not operate external servers that store your personal diary content
-- If you use optional cloud backup features, data is stored in your personal cloud account (not ours)
-- We implement industry-standard security measures to protect any data processed by the App
+If you choose to tag a journal entry with your location, LifeChronicle reads your device's location at the time of writing. Location is stored locally with the entry and is not transmitted to any server.
 
 ---
 
-## 5. Permissions
+## How We Use Your Data
 
-The App requests the following permissions:
-
-| Permission | Reason |
-|------------|---------|
-| CAMERA | Capture photos for diary entries |
-| READ_MEDIA_IMAGES | Select existing photos from gallery |
-| ACCESS_FINE_LOCATION | Attach location to diary entries (optional) |
-| ACCESS_COARSE_LOCATION | Fallback location for diary entries (optional) |
-| INTERNET | Connect to Google Gemini API for AI summaries |
-
-All location access is optional and only used when you choose to attach a location to an entry.
+| Purpose | Data Used |
+|---|---|
+| Display and manage your life journal | Local journal entries |
+| Attach and view photos in entries | Local photo files |
+| Tag entries with location (if enabled) | Device GPS at time of writing |
+| Export journal to PDF | Local entry data (iText7, on-device) |
 
 ---
 
-## 6. Children's Privacy
+## Data Storage and Security
 
-LifeChronicle is not directed to children under the age of 13. We do not knowingly collect personal information from children under 13. If you are a parent or guardian and believe your child has provided us with personal information, please contact us so we can delete that information.
+- **All data is stored locally** on your device in the App's private directory
+- **Photos:** Stored in the App's private storage, inaccessible to other apps
+- **No cloud backup:** Sudarshan Tech Labs operates no backend server
+- **Android sandbox:** All data is protected by Android's application isolation
 
----
+## Data Retention
 
-## 7. Your Rights
-
-You have the right to:
-
-- **Access**: View all data stored in the App (it's on your device)
-- **Delete**: Delete individual entries or all data via the App settings
-- **Export**: Export your data in PDF or JSON format
-- **Opt-out**: Disable optional features like location tagging or AI summaries at any time
-
-Since your diary data is stored locally on your device, you have full control over it at all times.
+| Data | Retention |
+|---|---|
+| Journal entries | Until you delete them or uninstall the App |
+| Photos | Until you delete them or uninstall the App |
+| Location tags | Until you delete the associated entry |
 
 ---
 
-## 8. Data Retention
+## Data Sharing
 
-- Diary data remains on your device until you delete it or uninstall the App
-- When you delete an entry in the App, it is permanently removed from local storage
-- Uninstalling the App removes all locally stored data
+We do not collect, share, or sell your journal data. All data remains on your device unless you explicitly export and share a PDF.
 
 ---
 
-## 9. Changes to This Policy
+## Permissions Explained
 
-We may update this Privacy Policy from time to time. We will notify you of any significant changes by updating the "Last Updated" date at the top of this document. Continued use of the App after changes constitutes acceptance of the updated policy.
+| Permission | Why It Is Needed |
+|---|---|
+| `CAMERA` | Capture photos to attach to journal entries |
+| `READ_MEDIA_IMAGES` (Android 13+) | Access photos from your gallery to attach to entries |
+| `READ_EXTERNAL_STORAGE` (Android 12 and below) | Access photos from your gallery on older Android |
+| `ACCESS_FINE_LOCATION` | Optionally tag entries with your precise location |
+| `ACCESS_COARSE_LOCATION` | Optionally tag entries with approximate location |
+| `INTERNET` | Required for network library initialisation (no personal data is sent) |
 
 ---
 
-## 10. Contact Us
+## Your Rights and Controls
 
-If you have questions or concerns about this Privacy Policy, please contact us:
+- **Delete individual entries:** Use the delete option within any entry
+- **Remove photo from entry:** Edit the entry and remove the attached photo
+- **Disable location tagging:** Turn off the location feature in App Settings
+- **Delete all data:** Uninstall the App or go to Android Settings > Apps > LifeChronicle > Storage > Clear Data
 
-**SudarshanTechLabs**
-Bangkok, Bangkok, Thailand
+---
 
-**Email**: sudarshantechlabs@gmail.com
+## Children's Privacy
 
-We will respond to your inquiry within 30 days.
+LifeChronicle is not directed at children under 13. We do not knowingly collect personal information from children.
+
+---
+
+## Changes to This Policy
+
+We may update this Privacy Policy from time to time. We will notify you of significant changes via:
+
+- In-app notification
+- Updated policy date on this page
+
+Continued use of LifeChronicle after changes become effective constitutes your acceptance of the updated policy.
+
+---
+
+## Contact Us
+
+For privacy questions, data access requests, or account deletion:
+
+- **Email:** sudarshantechlabs@gmail.com
+- **Developer:** sunny.sudarshan@gmail.com
+- **Website:** https://sudarshantechlabs.com
+- **Response Time:** Within 48 hours
+
+---
+
+## GDPR Rights (EU Users)
+
+If you are in the European Economic Area, you have the right to:
+
+- **Access** — Request a copy of your personal data
+- **Rectification** — Correct inaccurate data
+- **Erasure** — Request deletion of your data
+- **Restrict Processing** — Limit how we use your data
+- **Data Portability** — Receive your data in a portable format
+- **Object** — Object to certain types of processing
+
+To exercise these rights, contact us at the details above.
+
+---
+
+## Play Store Data Safety Summary
+
+| Data type | Collected | Shared | Purpose |
+|---|---|---|---|
+| Journal entries | Local only | No | App functionality |
+| Photos | Local only | No | App functionality |
+| Precise location (optional) | Local only | No | Entry location tagging |
+
+---
+
+---
+
+**This privacy policy complies with:**
+- Google Play Store requirements
+- GDPR (General Data Protection Regulation)
+- CCPA (California Consumer Privacy Act)
+
+**Last reviewed:** 2026-03-21
