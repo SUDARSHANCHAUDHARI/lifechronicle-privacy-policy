@@ -54,7 +54,9 @@ LifeChronicle ("we," "our," or "us") is an Android app. LifeChronicle is a priva
 - You control feature use through the app settings, permissions, account controls, or platform settings.
 
 ### Third Parties
-- No journal content is shared with third parties by Sudarshan Tech Labs.
+- LifeChronicle includes an optional AI feature that generates monthly and yearly timeline summaries. When you choose to generate a summary, selected journal entry content from that period is sent to **Google Gemini** (Google's generative AI service) to produce the summary. This happens only when you request a summary.
+- Google Gemini processes the content you send under Google's privacy policy: https://policies.google.com/privacy
+- Aside from the optional AI summary feature described above, no journal content is shared with third parties by Sudarshan Tech Labs.
 - If you export or share content through Android, that sharing is controlled by you.
 
 We do **not** share your data with:
@@ -69,7 +71,7 @@ We do **not** share your data with:
 * **CAMERA**: Used when you capture photos for entries.
 * **READ_MEDIA_IMAGES or READ_EXTERNAL_STORAGE**: Used when you attach existing photos.
 * **ACCESS_FINE_LOCATION and ACCESS_COARSE_LOCATION**: Used only for optional location tags.
-* **INTERNET**: Available for app features that require connectivity, if enabled in the installed version.
+* **INTERNET**: Used for the optional AI summary feature (which sends selected content to Google Gemini) and any other connectivity features in the installed version.
 
 ### Optional Permissions
 
