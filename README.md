@@ -49,7 +49,7 @@ LifeChronicle ("we," "our," or "us") is an Android app. LifeChronicle is a priva
 - Exported files remain wherever you saved them.
 
 ### Data Security
-- Data is protected using platform security controls available on Android, the browser, Firebase, Google, GitHub, or other services named in this policy.
+- Data is protected using platform security controls available on Android, the browser, Google, GitHub, or other services named in this policy.
 - Local data remains on your device or browser unless a feature you use requires a named third-party service.
 - Network communication uses HTTPS/TLS where applicable.
 - You should protect your device, browser profile, and Google/GitHub accounts with strong authentication.
@@ -186,20 +186,6 @@ To request deletion of your data:
 4. Request account/data deletion and include enough detail for us to identify the app and any account, if one exists
 5. We will confirm what data can be deleted and complete the request according to the retention terms above
 
-## Firebase and Google Services
-
-This app may use the following services depending on the features you enable and the installed version:
-
-- No third-party cloud service is required for core journaling.
-- **Google Gemini**: optional AI summaries, as described in Third Parties.
-
-Please review relevant third-party privacy policies:
-
-- [Google Privacy Policy](https://policies.google.com/privacy)
-- [Firebase Privacy Policy](https://firebase.google.com/support/privacy)
-- [Google Play Terms](https://play.google.com/about/play-terms/)
-- [GitHub Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement)
-
 ## About LifeChronicle
 
 LifeChronicle is built with privacy in mind. The app is built with:
@@ -220,6 +206,7 @@ The app collects only the data needed for the features described in this policy,
 
 - **Disclosed the optional Google Gemini AI summary feature in every copy of this policy.**
 - **Corrected location: the app does not use GPS or location permissions. Location is an optional text field.**
+- **Removed a third-party services section naming a cloud service the app does not use.**
 
 ## Recent Updates (Version 1.1.0 - May 17, 2026)
 
