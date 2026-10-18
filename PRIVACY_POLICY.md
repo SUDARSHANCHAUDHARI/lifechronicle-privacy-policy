@@ -1,16 +1,16 @@
 # LifeChronicle Privacy Policy
 
 **Effective Date:** May 17, 2026
-_Last updated: May 17, 2026_
-**Version:** 1.1.0
+_Last updated: October 19, 2026_
+**Version:** 1.2.0
 
 LifeChronicle ("we," "our," or "us") is an Android app. LifeChronicle is a private life journaling app for Android with text entries, photos, optional location tags, and local exports. This Privacy Policy explains what information the app collects, how it is used, and the choices you have. By installing or using LifeChronicle you agree to the practices described below.
 
 ## Information We Collect
 
 ### Location Data
-- LifeChronicle may access location only when you choose to add a location tag to a journal entry.
-- Location tags are stored with your local journal content and are not continuously tracked.
+- LifeChronicle does not use your device's GPS or location services and does not track your location.
+- You can type an optional location (such as a place name) into a journal entry. It is stored with that entry like the rest of your journal text.
 
 ### Account Information
 - No account is required to use LifeChronicle.
@@ -41,7 +41,7 @@ LifeChronicle ("we," "our," or "us") is an Android app. LifeChronicle is a priva
 - Exported files remain wherever you saved them.
 
 ### Data Security
-- Data is protected using platform security controls available on Android, the browser, Firebase, Google, GitHub, or other services named in this policy.
+- Data is protected using platform security controls available on Android, the browser, Google, GitHub, or other services named in this policy.
 - Local data remains on your device or browser unless a feature you use requires a named third-party service.
 - Network communication uses HTTPS/TLS where applicable.
 - You should protect your device, browser profile, and Google/GitHub accounts with strong authentication.
@@ -49,7 +49,7 @@ LifeChronicle ("we," "our," or "us") is an Android app. LifeChronicle is a priva
 ## Data Sharing
 
 ### Family Groups
-- LifeChronicle does not use MyFamilyTracker-style family groups unless explicitly described in this policy.
+- LifeChronicle does not use family groups unless explicitly described in this policy.
 - If this app includes pairing, sharing, or collaboration features, data is shared only with the people or services required for the feature you choose.
 - You control feature use through the app settings, permissions, account controls, or platform settings.
 
@@ -70,17 +70,16 @@ We do **not** share your data with:
 
 * **CAMERA**: Used when you capture photos for entries.
 * **READ_MEDIA_IMAGES or READ_EXTERNAL_STORAGE**: Used when you attach existing photos.
-* **ACCESS_FINE_LOCATION and ACCESS_COARSE_LOCATION**: Used only for optional location tags.
 * **INTERNET**: Used for the optional AI summary feature (which sends selected content to Google Gemini) and any other connectivity features in the installed version.
 
 ### Optional Permissions
 
-* Camera, media, and location access are optional and only needed for those features.
+* Camera and media access are optional and only needed for those features.
 
 ## Your Rights and Controls
 
 ### Location Sharing Control
-- You can skip location tags or revoke location permission in Android settings.
+- Location is a text field you fill in yourself. Leave it empty to add no location to an entry.
 
 ### Account Management
 - No account is required.
@@ -179,34 +178,27 @@ To request deletion of your data:
 4. Request account/data deletion and include enough detail for us to identify the app and any account, if one exists
 5. We will confirm what data can be deleted and complete the request according to the retention terms above
 
-## Firebase and Google Services
-
-This app may use the following services depending on the features you enable and the installed version:
-
-- No third-party cloud service is required for core journaling.
-
-Please review relevant third-party privacy policies:
-
-- [Google Privacy Policy](https://policies.google.com/privacy)
-- [Firebase Privacy Policy](https://firebase.google.com/support/privacy)
-- [Google Play Terms](https://play.google.com/about/play-terms/)
-- [GitHub Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement)
-
 ## About LifeChronicle
 
 LifeChronicle is built with privacy in mind. The app is built with:
 - Kotlin and Jetpack Compose
 - Local-first journal storage
 - Camera/media attachments
-- Optional location tagging
+- Optional typed location notes
 
 The app collects only the data needed for the features described in this policy, and local-first features keep data on your device whenever possible.
 
 ---
 
-**Last Updated:** May 17, 2026
+**Last Updated:** October 19, 2026
 
 ---
+
+## Recent Updates (Version 1.2.0 - October 19, 2026)
+
+- **Disclosed the optional Google Gemini AI summary feature in every copy of this policy.**
+- **Corrected location: the app does not use GPS or location permissions. Location is an optional text field.**
+- **Removed a third-party services section naming a cloud service the app does not use.**
 
 ## Recent Updates (Version 1.1.0 - May 17, 2026)
 
